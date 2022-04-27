@@ -33,4 +33,6 @@ Route::prefix('admin')->group(function () {
     Route::get('/jsIntroduction_next', 'JsintroController@index_next')->name('jsintro_next');
   
 
+    Route::get('/jsrusdi', 'RusdiController@index')->name('jsrusdi');
+    Route::get('/jsrusdi_next', 'RusdiController@index_next')->name('jsrusdi_next');
 });
